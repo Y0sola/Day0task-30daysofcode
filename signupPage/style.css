@@ -1,0 +1,31 @@
+.leftside, .rightside{
+
+    height: 50vh;
+    width: 100%;
+}
+
+
+@media screen and (min-width:768px)
+{
+
+    .leftside,.rightside{
+
+        height: 100vh;
+    }
+
+
+
+}
+.leftside{
+      background-image: url(image.png);    
+      background-position: center;
+      height: 100vh;
+      background-size: cover;
+      background-repeat: no-repeat;
+      width:auto;
+      
+}
+
+.rightside{
+    background-color:lightskyblue
+}
